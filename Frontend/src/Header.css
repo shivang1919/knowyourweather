@@ -1,0 +1,38 @@
+/* Header.css */
+.navbar {
+    background-color: #121212; /* Dark background for the navbar */
+    border-bottom: 2px solid #f1c40f; /* Gold border at the bottom */
+  }
+  
+  .text-gold {
+    color: #f1c40f; /* Gold color for the text */
+    font-size: xx-large;
+  }
+  
+  .btn-gold {
+    background-color: #f1c40f; /* Gold background for buttons */
+    color: black; /* Black text for button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Add padding for better touch target */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .btn-gold:hover {
+    background-color: #deb217; /* Darker gold on hover */
+  }
+  
+  .btn-outline-gold {
+    color: #f1c40f; /* Gold text color for outlined buttons */
+    border-color: #f1c40f; /* Gold border color for outlined buttons */
+  }
+  
+  .btn-outline-gold:hover {
+    background-color: #f1c40f; /* Gold background on hover */
+    color: black; /* Black text on hover */
+  }
+  
+  .btn-group {
+    margin-left: auto; /* Align buttons to the right */
+  }
+  

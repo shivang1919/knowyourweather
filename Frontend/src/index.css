@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-image: url(../public/premium-black-gold-lines-abstract_1017-25647.avif); */
+  background-repeat: no-repeat;
+  background-size: 100% 150%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 50px;
+  color: #ccc; /* Light gray for unselected stars */
+}
+.rate:not(:checked) > label:before {
+  content: '★ ';
+}
+.rate > input:checked ~ label {
+  color: #ffc700; /* Gold for selected stars */
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217; /* Darker gold for hover effect */
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08; /* Highlight for selected stars */
+}
+
+.login-box {
+   float: right;
+   border-radius: 10px;
+   background-color: #2c2c2c; /* Dark background for the login box */
+   color: gold; /* Gold text for contrast */
+   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Slightly darker shadow */
+   padding: 20px; /* Add padding for better spacing */
+}
+
+.title {
+  float: center;
+  color: gold; /* Gold title color */
+  font-size: 70px !important;
+}
+
+.subtitle {
+  color: white; /* White subtitle for contrast */
+  text-wrap: balance;
+}
+
+.format {
+  margin-top: 100px;
+}
+
+.error {
+  color: red; /* Keep red for error messages */
+}
+
+.feedback-box {
+  height: 600px;
+  overflow-y: scroll;
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent black for the feedback box */
+  border-radius: 40px;
+  color: gold; /* Gold text for better visibility */
+}
+
+.feedback-box::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
+.text {
+  float: left;
+  color: gold; /* Gold text for consistency */
+}

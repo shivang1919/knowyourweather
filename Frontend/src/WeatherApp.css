@@ -1,0 +1,81 @@
+body {
+    background-color: #1a1a1a; /* Darker background for contrast */
+    color: #f1c40f; /* Gold text color */
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+    padding: 40px;
+  }
+  
+  .feedback-box {
+    background-color: #2c2c2c;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.1); /* Gold shadow effect */
+    border-radius: 15px;
+    padding: 40px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .feedback-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 30px rgba(255, 215, 0, 0.2);
+  }
+  
+  h3, h2, .display-6 {
+    color: #f1c40f; /* Gold headings */
+  }
+  
+  .btn-group .btn-outline-dark {
+    border: 2px solid #f1c40f;
+    color: #f1c40f;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-group .btn-outline-dark.active,
+  .btn-group .btn-outline-dark:hover {
+    background-color: #f1c40f; /* Gold background on active/hover */
+    color: #1a1a1a; /* Dark text on hover */
+    transform: scale(1.05);
+  }
+  
+  .border {
+    border: none;
+    background-color: #3c3c3c; /* Dark grey background for sections */
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0px 4px 10px rgba(255, 215, 0, 0.1);
+  }
+  
+  .display-6 {
+    font-size: 1.8rem;
+  }
+  
+  .alert-danger {
+    background-color: #e74c3c; /* Bright red for errors */
+    color: white;
+  }
+  
+  .fa-temperature-full, .fa-thermometer-half, .fa-cloud, .fa-clock, .fa-calendar {
+    color: #f1c40f; /* Gold icons */
+  }
+  
+  .btn-group {
+    justify-content: center;
+  }
+  
+  .border:hover {
+    background-color: #444; /* Subtle hover effect */
+  }
+  
+  .feedback-box .btn-group .btn-outline-dark.active:hover {
+    transform: scale(1.1);
+  }
+  
+  .weather-data-box {
+    margin-top: 30px;
+    padding: 20px;
+    background: #2c2c2c;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px rgba(255, 215, 0, 0.3); /* Gold glow */
+  }
+  
