@@ -49,16 +49,16 @@ Ensure you have the following installed:
        cd backend
    ```
        nodemon server.js (for updating on its own)
-2. reactapp
+2. Frontend
    ```
-       cd reactapp
+       cd Frontend
    ```
        npm start
 
 ## All Links and How to view data
 
-Frontend: http://localhost:3000
-Backend API: http://localhost:8000/weatherapi
+Frontend: http://localhost:3000,
+Backend API: http://localhost:8000/weatherapi,
 Database:  open mongoose portal and see the data
 
    
