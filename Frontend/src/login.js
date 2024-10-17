@@ -1,7 +1,7 @@
 import { GoogleLogin } from 'react-google-login';
 import './Login.css'; // Ensure to create a separate CSS file for this component
 
-const oAuthKey = "925306536966-8krnsg2kdor08se5s6d47vla1pec5f2f.apps.googleusercontent.com";
+const oAuthKey = "1069910303420-2tfbmtu5ju3ol1cponbc6ih8ajfvn9df.apps.googleusercontent.com";
 
 const Login = () => {
   const onSuccess = (res) => {

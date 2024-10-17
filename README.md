@@ -9,8 +9,8 @@ This application is built with the MERN stack (MongoDB, Express.js, React.js, No
 Ensure you have the following installed:
 
 - **Node.js** (v14.x or later)
-- **MongoDB** (Community Edition)
-- **npm** (Comes with Node.js)
+- **MongoDB** (Atlas)
+- **npm** (Node Package Manager)
 - **Git** (For cloning the repository)
 
 ## Dependencies
